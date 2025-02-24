@@ -19,6 +19,17 @@ for (let i = 1; i <= 10; i++) {
 }
 console.log("------------------------------------------------------");
 // 6
-for (let n = 12; n <= 12; n) {
-    console.log(n);
+let n = 12;
+let i = 1;
+while (i <= n) {
+    console.log(i);
+    i += 1;
+}
+console.log("------------------------------------------------------");
+// 7
+for (let i = 1; i <= 20; i++) {
+    if (i % 3 !== 0) {
+        continue;
+    }
+    console.log(i);
 }
